@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between md:justify-around space-y-8 md:space-y-0">
 
             <div className='md:w-80 '>
-              <div className="text-lg font-semibold text-white flex gap-2"> <Image src="/aceProject/logo.svg" alt="logo" width={100} height={100} className='w-6 h-6' /> AceProject</div>
+              <div className="text-lg font-semibold text-white flex gap-2"> <Image src="/ace-project/logo.svg" alt="logo" width={100} height={100} className='w-6 h-6' /> AceProject</div>
               <p className="mt-2 text-sm flex flex-wrap">{t('Description')}</p>
             </div>
 

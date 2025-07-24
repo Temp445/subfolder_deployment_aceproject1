@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from './Navbar';
+import image1 from  "@/assets/AP2.jpg"
+import image2 from  "@/assets/AP3.jpg"
+import image3 from  "@/assets/img-3.jpg"
 
 import { BsMicrosoftTeams } from "react-icons/bs";
 import { LuChartGantt } from "react-icons/lu";
@@ -41,7 +44,7 @@ const Hero = () => {
                     <div className="lg:col-span-1 hidden  md:block">
                       <div className="relative h-full bg-white/10 rounded md:rounded-xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
                         <Image
-                          src="/aceproject/AP2.jpg"
+                          src={image1}
                           alt="image"
                           className="w-full h-full object-cover rounded-xl shadow-lg"
                           width={484}
@@ -56,7 +59,7 @@ const Hero = () => {
 
                       <div className="relative bg-white/10 rounded md:rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
                         <Image
-                          src="/aceproject/AP3.jpg"
+                          src={image2}
                           alt="image"
                           className="w-full h-full object-cover rounded-lg shadow-lg"
                           width={484}
@@ -68,7 +71,7 @@ const Hero = () => {
                       <div className="md:grid  gap-1 md:gap-4 hidden">
                         <div className="relative bg-white/10 rounded md:rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
                           <Image
-                            src="/aceproject/img-3.jpg"
+                            src={image3}
                             alt="image"
                             className="w-full h-80 object-center rounded-lg shadow-lg"
                             width={542}

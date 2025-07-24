@@ -3,15 +3,15 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl'
 
 const featureIcons: string[] = [
-    '/aceproject/icon.png',
-    '/aceproject/icon-2.png',
-    '/aceproject/icon-4.png',
-    '/aceproject/icon-3.png',
-    '/aceproject/icon-5.png',
-    '/aceproject/icon-6.png',
-    '/aceproject/icon-7.png',
-    '/aceproject/icon-8.png',
-    '/aceproject/icon-9.png',
+    '/ace-project/icon.png',
+    '/ace-project/icon-2.png',
+    '/ace-project/icon-4.png',
+    '/ace-project/icon-3.png',
+    '/ace-project/icon-5.png',
+    '/ace-project/icon-6.png',
+    '/ace-project/icon-7.png',
+    '/ace-project/icon-8.png',
+    '/ace-project/icon-9.png',
   ];
 
 type Feature = {
