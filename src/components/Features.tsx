@@ -1,18 +1,18 @@
 
 import Image from 'next/image';
 import { useTranslations } from 'next-intl'
+import icon1 from '../assets/icon.png'
+import icon2 from '../assets/icon-2.png'
+import icon3 from '../assets/icon-3.png'
+import icon4 from '../assets/icon-4.png'
+import icon5 from '../assets/icon-5.png'
+import icon6 from '../assets/icon-6.png'
+import icon7 from '../assets/icon-7.png'
+import icon8 from '../assets/icon-8.png'
+import icon9 from '../assets/icon-9.png'
 
-const featureIcons: string[] = [
-    '/ace-project/icon.png',
-    '/ace-project/icon-2.png',
-    '/ace-project/icon-4.png',
-    '/ace-project/icon-3.png',
-    '/ace-project/icon-5.png',
-    '/ace-project/icon-6.png',
-    '/ace-project/icon-7.png',
-    '/ace-project/icon-8.png',
-    '/ace-project/icon-9.png',
-  ];
+
+const featureIcons = [icon1, icon2, icon4, icon3, icon5, icon6, icon7, icon8, icon9];
 
 type Feature = {
   Title: string;
