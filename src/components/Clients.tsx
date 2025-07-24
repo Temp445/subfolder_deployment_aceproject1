@@ -1,7 +1,7 @@
 
 
 import Marquee from "react-fast-marquee";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 
 import img0 from "@/assets/ClientImages/image-0.png";
 import img1 from "@/assets/ClientImages/image-1.png";
