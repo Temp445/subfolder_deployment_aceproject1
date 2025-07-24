@@ -1,6 +1,7 @@
 "use client";
 import { FC, useState, useRef, useEffect } from "react";
 import Image from "next/image";
+import logo from "@/assets/AceLogo.png"
 import { useLocale } from 'next-intl';
 import { setCookie } from 'cookies-next';
 import { useRouter } from 'next/navigation';
@@ -60,7 +61,7 @@ const Navbar1: FC = () => {
           <div className="md:flex items-center hidden ">
             <Link href={`https://acesoft.in/${currentLocale}`} className="text-2xl md:text-xl lg:text-2xl xl:text-3xl font-bold text-[#2b2d42] flex gap-1">
               <Image
-                src="/AceLogo.png"
+                src={logo}
                 alt="logo"
                 width={100}
                 height={100}

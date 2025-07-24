@@ -1,6 +1,7 @@
 "use client";
 import { FC, useState } from "react";
 import Link from "next/link";
+import logo from "@/assets/AceLogo.png"
 import {
   House,
   Star,
@@ -29,7 +30,7 @@ const Navbar: FC = () => {
         <div className="md:flex items-center hidden ">
           <Link href="/" className="text-2xl md:text-xl lg:text-2xl xl:text-3xl font-bold text-[#2b2d42] flex gap-1">
             <Image
-              src="/AceLogo.png"
+              src={logo}
               alt="logo"
               width={100}
               height={100}

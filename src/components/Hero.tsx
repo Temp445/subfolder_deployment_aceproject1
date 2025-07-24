@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import image1 from  "@/assets/AP2.jpg"
 import image2 from  "@/assets/AP3.jpg"
 import image3 from  "@/assets/img-3.jpg"
-
+import logo from "@/assets/AceLogo.png"
 import { BsMicrosoftTeams } from "react-icons/bs";
 import { LuChartGantt } from "react-icons/lu";
 import { PiFilesFill } from "react-icons/pi";
@@ -30,7 +30,7 @@ const Hero = () => {
           </nav>
 
           <div className="md:hidden flex gap-1 mx-auto justify-center w-fit py-4 px-6 md:mt-10  -mt-16 ">
-            <Image src="/AceLogo.png" alt="logo" className="w-8 h-8 " width={32} height={32} />
+            <Image src={logo} alt="logo" className="w-8 h-8 " width={32} height={32} />
             <span className="text-lg font-bold text-[#2b2d42] tracking-wide mt-1">AceProject</span>
           </div>
 
