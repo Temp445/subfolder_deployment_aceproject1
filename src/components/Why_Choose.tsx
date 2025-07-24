@@ -1,6 +1,7 @@
 
 import { CheckCircle, MoveRight } from 'lucide-react'
 import Image from 'next/image'
+import image1 from "@/assets/img-1.png"
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 
@@ -31,7 +32,7 @@ const Why_Choose = () => {
 
                 <div className="mx-auto  relative mt-5 rounded bg-white shadow-xl ">
                   <Image
-                    src="/ace-project/img-1.png"
+                    src={image1}
                     alt="ACE CMS"
                     className="object-contain w-full h-full p-5"
                     width={100}
