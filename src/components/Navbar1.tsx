@@ -59,7 +59,7 @@ const Navbar1: FC = () => {
       <nav className=" container mx-auto hidden md:flex items-center justify-between md:pt-3 pb-2  px-4 md:px-0  relative border-b">
         <div className="flex">
           <div className="md:flex items-center hidden ">
-            <Link href={`https://acesoft.in/${currentLocale}`} className="text-2xl md:text-xl lg:text-2xl xl:text-3xl font-bold text-[#2b2d42] flex gap-1">
+            <Link href="https://acesofts.netlify.app/" className="text-2xl md:text-xl lg:text-2xl xl:text-3xl font-bold text-[#2b2d42] flex gap-1">
               <Image
                 src={logo}
                 alt="logo"
@@ -75,7 +75,7 @@ const Navbar1: FC = () => {
           <div className="hidden md:flex items-center space-x-4 ml-10">
             <div className="group">
               <Link
-                href="https://home.acecms.in/"
+                href="/products/ace-calibration-management-system-on-cloud"
                 className="flex items-center text-[#2b2d42]  border border-white  text-base font-semibold relative px-4 py-2 rounded-full transition-all duration-300 ease-in-out   hover:scale-105"
               >
                 {t('CMS')}
@@ -110,7 +110,7 @@ const Navbar1: FC = () => {
             </div>
 
             <Link
-              href="https://acesoft.in/products"
+              href="https://acesofts.netlify.app/products"
               className="flex items-center text-[#2b2d42]  border border-white   text-base font-semibold relative px-4 py-2 rounded-full transition-all duration-300 ease-in-out  hover:scale-105"
             >
               {t('AllProducts')}
