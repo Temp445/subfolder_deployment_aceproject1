@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 import createNextIntlPlugin from 'next-intl/plugin';
 
 const nextConfig: NextConfig = {
-//   basePath: '/products/ace-project-management-software',
+  basePath: '/products/ace-project-management-software',
 //   assetPrefix: '/ace-project',
   trailingSlash: true,
     images: {
